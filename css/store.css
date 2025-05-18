@@ -1,0 +1,39 @@
+.store-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.store {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 96px;
+    padding-top: 86px;
+    scroll-margin-top: 86px;
+}
+
+
+.store-list div:nth-of-type(2n) {
+    flex-direction: row-reverse;
+}
+
+.store-img {
+    width: 30%;
+}
+
+.store-img img {
+    display: inline-block;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.store-info {
+    word-break: break-all;
+}
+
+.store-info p:first-of-type{
+    font-size: 2rem;
+}
